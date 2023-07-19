@@ -1,9 +1,9 @@
 {
-    "uid": "cohort-team##-201-contact",
-    "name": "Cohort Team##-201",
+    "uid": "cohort-team2-201-contact",
+    "name": "Cohort Team2-201",
     "type": "email",
     "settings": {
-        "addresses": "email1@myteam.com; email2@myteam.com",
+        "addresses": "plad@thoughtworks.com; dan.lewistoakley@thoughtworks.com",
         "singleEmail": false
     },
     "disableResolveMessage": false
