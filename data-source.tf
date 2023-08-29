@@ -36,6 +36,6 @@ resource "grafana_data_source" "github-datasource" {
   })
 
   secure_json_data_encoded = jsonencode({
-    "accessToken" = var.github_pat
+    "accessToken" = var.github_grafana_pat
   })
 }

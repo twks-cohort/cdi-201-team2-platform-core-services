@@ -11,4 +11,4 @@ variable "prometheus_version" {}
 variable "grafana_agent_version" {}
 variable "alert_channel" {}
 variable "grafana_admin_api_key" {}
-variable "github_pat" {}
+variable "github_grafana_pat" {}
