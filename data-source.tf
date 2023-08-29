@@ -26,3 +26,16 @@ resource "grafana_cloud_plugin_installation" "github" {
   slug       = "grafana-github-datasource"
   version    = "1.4.7"
 }
+
+resource "grafana_data_source" "github-datasource" {
+  type = "grafana-github-datasource"
+  name = "github-datasource"
+
+  json_data_encoded = jsonencode({
+    "organization"       = "twks-cohort"
+  })
+
+  secure_json_data_encoded = jsonencode({
+    "accessToken" = var.github_pat
+  })
+}

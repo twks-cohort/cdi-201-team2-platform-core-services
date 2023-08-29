@@ -12,5 +12,6 @@
     "prometheus_version": "v2.42.0",
     "grafana_agent_version": "v0.33.1",
     "alert_channel": "prod",
-    "grafana_admin_api_key": "{{ op://cohorts/team2-201-svc-grafana/admin-api-key }}"
+    "grafana_admin_api_key": "{{ op://cohorts/team2-201-svc-grafana/admin-api-key }}",
+    "github_grafana_pat": "{{ op://cohorts/team2-201-svc-github/GrafanaPAT }}",
 }
